@@ -1,0 +1,1975 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!181963792 &2655988077585873504
+Preset:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: csky_Dome
+  m_TargetType:
+    m_NativeTypeID: 114
+    m_ManagedTypePPtr: {fileID: 11500000, guid: eb210d3ac2de0f1ad9cd2a99fc851f66,
+      type: 3}
+    m_ManagedTypeFallback: 
+  m_Properties:
+  - target: {fileID: 0}
+    propertyPath: m_Enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorHideFlags
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorClassIdentifier
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_DomeRadius
+    value: 10000
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_RenderAtmosphere
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AtmosphereMeshQuality
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AtmosphereLayerIndex
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_RenderDeepSpace
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_DeepSpaceLayerIndex
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_CustomDeepSpaceRotation
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_DeepSpaceEuler.x
+    value: 9.03
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_DeepSpaceEuler.y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_DeepSpaceEuler.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_RenderSun
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SunLayerIndex
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SunMeshSize
+    value: 0.025
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SunAzimuth
+    value: 1.9454794
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SunAltitude
+    value: 1.4831021
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_RenderMoon
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_MoonLayerIndex
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_MoonMeshSize
+    value: 0.025
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_MoonAzimuth
+    value: 4.909674
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_MoonAltitude
+    value: 2.2201436
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_RenderClouds
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_CloudsLayerIndex
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_CloudsDomeHeight
+    value: 0.186
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_CloudsAltitude
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_CloudsOrientation
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_DirLight
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_DirLightRefreshTime
+    value: 0.5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SunParams.intensity
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SunParams.color.key0.r
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SunParams.color.key0.g
+    value: 0.9123554
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SunParams.color.key0.b
+    value: 0.745283
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SunParams.color.key0.a
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SunParams.color.key1.r
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SunParams.color.key1.g
+    value: 0.664623
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SunParams.color.key1.b
+    value: 0.48478577
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SunParams.color.key1.a
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SunParams.color.key2.r
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SunParams.color.key2.g
+    value: 0.24242005
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SunParams.color.key2.b
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SunParams.color.key2.a
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SunParams.color.key3.r
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SunParams.color.key3.g
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SunParams.color.key3.b
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SunParams.color.key3.a
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SunParams.color.key4.r
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SunParams.color.key4.g
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SunParams.color.key4.b
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SunParams.color.key4.a
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SunParams.color.key5.r
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SunParams.color.key5.g
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SunParams.color.key5.b
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SunParams.color.key5.a
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SunParams.color.key6.r
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SunParams.color.key6.g
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SunParams.color.key6.b
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SunParams.color.key6.a
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SunParams.color.key7.r
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SunParams.color.key7.g
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SunParams.color.key7.b
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SunParams.color.key7.a
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SunParams.color.ctime0
+    value: 20372
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SunParams.color.ctime1
+    value: 27675
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SunParams.color.ctime2
+    value: 33440
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SunParams.color.ctime3
+    value: 38053
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SunParams.color.ctime4
+    value: 65535
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SunParams.color.ctime5
+    value: 65535
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SunParams.color.ctime6
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SunParams.color.ctime7
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SunParams.color.atime0
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SunParams.color.atime1
+    value: 65535
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SunParams.color.atime2
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SunParams.color.atime3
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SunParams.color.atime4
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SunParams.color.atime5
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SunParams.color.atime6
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SunParams.color.atime7
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SunParams.color.m_Mode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SunParams.color.m_NumColorKeys
+    value: 5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SunParams.color.m_NumAlphaKeys
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_MoonParams.intensity
+    value: 0.3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_MoonParams.color.key0.r
+    value: 0.6509434
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_MoonParams.color.key0.g
+    value: 0.8904852
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_MoonParams.color.key0.b
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_MoonParams.color.key0.a
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_MoonParams.color.key1.r
+    value: 0.6509434
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_MoonParams.color.key1.g
+    value: 0.8904852
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_MoonParams.color.key1.b
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_MoonParams.color.key1.a
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_MoonParams.color.key2.r
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_MoonParams.color.key2.g
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_MoonParams.color.key2.b
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_MoonParams.color.key2.a
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_MoonParams.color.key3.r
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_MoonParams.color.key3.g
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_MoonParams.color.key3.b
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_MoonParams.color.key3.a
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_MoonParams.color.key4.r
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_MoonParams.color.key4.g
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_MoonParams.color.key4.b
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_MoonParams.color.key4.a
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_MoonParams.color.key5.r
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_MoonParams.color.key5.g
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_MoonParams.color.key5.b
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_MoonParams.color.key5.a
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_MoonParams.color.key6.r
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_MoonParams.color.key6.g
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_MoonParams.color.key6.b
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_MoonParams.color.key6.a
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_MoonParams.color.key7.r
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_MoonParams.color.key7.g
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_MoonParams.color.key7.b
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_MoonParams.color.key7.a
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_MoonParams.color.ctime0
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_MoonParams.color.ctime1
+    value: 65535
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_MoonParams.color.ctime2
+    value: 65535
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_MoonParams.color.ctime3
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_MoonParams.color.ctime4
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_MoonParams.color.ctime5
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_MoonParams.color.ctime6
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_MoonParams.color.ctime7
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_MoonParams.color.atime0
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_MoonParams.color.atime1
+    value: 65535
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_MoonParams.color.atime2
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_MoonParams.color.atime3
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_MoonParams.color.atime4
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_MoonParams.color.atime5
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_MoonParams.color.atime6
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_MoonParams.color.atime7
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_MoonParams.color.m_Mode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_MoonParams.color.m_NumColorKeys
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_MoonParams.color.m_NumAlphaKeys
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SunMoonLightFade.m_Curve.Array.size
+    value: 5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SunMoonLightFade.m_Curve.Array.data[0].time
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SunMoonLightFade.m_Curve.Array.data[0].value
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SunMoonLightFade.m_Curve.Array.data[0].inSlope
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SunMoonLightFade.m_Curve.Array.data[0].outSlope
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SunMoonLightFade.m_Curve.Array.data[0].tangentMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SunMoonLightFade.m_Curve.Array.data[0].weightedMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SunMoonLightFade.m_Curve.Array.data[0].inWeight
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SunMoonLightFade.m_Curve.Array.data[0].outWeight
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SunMoonLightFade.m_Curve.Array.data[1].time
+    value: 0.34073704
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SunMoonLightFade.m_Curve.Array.data[1].value
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SunMoonLightFade.m_Curve.Array.data[1].inSlope
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SunMoonLightFade.m_Curve.Array.data[1].outSlope
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SunMoonLightFade.m_Curve.Array.data[1].tangentMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SunMoonLightFade.m_Curve.Array.data[1].weightedMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SunMoonLightFade.m_Curve.Array.data[1].inWeight
+    value: 0.33333334
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SunMoonLightFade.m_Curve.Array.data[1].outWeight
+    value: 0.33333334
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SunMoonLightFade.m_Curve.Array.data[2].time
+    value: 0.4696078
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SunMoonLightFade.m_Curve.Array.data[2].value
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SunMoonLightFade.m_Curve.Array.data[2].inSlope
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SunMoonLightFade.m_Curve.Array.data[2].outSlope
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SunMoonLightFade.m_Curve.Array.data[2].tangentMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SunMoonLightFade.m_Curve.Array.data[2].weightedMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SunMoonLightFade.m_Curve.Array.data[2].inWeight
+    value: 0.33333334
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SunMoonLightFade.m_Curve.Array.data[2].outWeight
+    value: 0.33333334
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SunMoonLightFade.m_Curve.Array.data[3].time
+    value: 0.564447
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SunMoonLightFade.m_Curve.Array.data[3].value
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SunMoonLightFade.m_Curve.Array.data[3].inSlope
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SunMoonLightFade.m_Curve.Array.data[3].outSlope
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SunMoonLightFade.m_Curve.Array.data[3].tangentMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SunMoonLightFade.m_Curve.Array.data[3].weightedMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SunMoonLightFade.m_Curve.Array.data[3].inWeight
+    value: 0.33333334
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SunMoonLightFade.m_Curve.Array.data[3].outWeight
+    value: 0.33333334
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SunMoonLightFade.m_Curve.Array.data[4].time
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SunMoonLightFade.m_Curve.Array.data[4].value
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SunMoonLightFade.m_Curve.Array.data[4].inSlope
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SunMoonLightFade.m_Curve.Array.data[4].outSlope
+    value: -0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SunMoonLightFade.m_Curve.Array.data[4].tangentMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SunMoonLightFade.m_Curve.Array.data[4].weightedMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SunMoonLightFade.m_Curve.Array.data[4].inWeight
+    value: 0.05185193
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SunMoonLightFade.m_Curve.Array.data[4].outWeight
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SunMoonLightFade.m_PreInfinity
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SunMoonLightFade.m_PostInfinity
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SunMoonLightFade.m_RotationOrder
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.sendSkybox
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.ambientMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.updateTime
+    value: 0.5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.skyColor.key0.r
+    value: 0.42745098
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.skyColor.key0.g
+    value: 0.54126805
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.skyColor.key0.b
+    value: 0.7410697
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.skyColor.key0.a
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.skyColor.key1.r
+    value: 0.35269704
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.skyColor.key1.g
+    value: 0.44307622
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.skyColor.key1.b
+    value: 0.5998932
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.skyColor.key1.a
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.skyColor.key2.r
+    value: 0.2232395
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.skyColor.key2.g
+    value: 0.27844664
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.skyColor.key2.b
+    value: 0.36833754
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.skyColor.key2.a
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.skyColor.key3.r
+    value: 0.07034409
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.skyColor.key3.g
+    value: 0.09770352
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.skyColor.key3.b
+    value: 0.1646296
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.skyColor.key3.a
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.skyColor.key4.r
+    value: 0.0742504
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.skyColor.key4.g
+    value: 0.105516136
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.skyColor.key4.b
+    value: 0.18806745
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.skyColor.key4.a
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.skyColor.key5.r
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.skyColor.key5.g
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.skyColor.key5.b
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.skyColor.key5.a
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.skyColor.key6.r
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.skyColor.key6.g
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.skyColor.key6.b
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.skyColor.key6.a
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.skyColor.key7.r
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.skyColor.key7.g
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.skyColor.key7.b
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.skyColor.key7.a
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.skyColor.ctime0
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.skyColor.ctime1
+    value: 26214
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.skyColor.ctime2
+    value: 32768
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.skyColor.ctime3
+    value: 39321
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.skyColor.ctime4
+    value: 65535
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.skyColor.ctime5
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.skyColor.ctime6
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.skyColor.ctime7
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.skyColor.atime0
+    value: 386
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.skyColor.atime1
+    value: 65535
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.skyColor.atime2
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.skyColor.atime3
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.skyColor.atime4
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.skyColor.atime5
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.skyColor.atime6
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.skyColor.atime7
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.skyColor.m_Mode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.skyColor.m_NumColorKeys
+    value: 5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.skyColor.m_NumAlphaKeys
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.equatorColor.key0.r
+    value: 0.7728237
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.equatorColor.key0.g
+    value: 0.886656
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.equatorColor.key0.b
+    value: 0.9609064
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.equatorColor.key0.a
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.equatorColor.key1.r
+    value: 0.6155337
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.equatorColor.key1.g
+    value: 0.73716336
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.equatorColor.key1.b
+    value: 0.8627146
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.equatorColor.key1.a
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.equatorColor.key2.r
+    value: 0.5686275
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.equatorColor.key2.g
+    value: 0.5295491
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.equatorColor.key2.b
+    value: 0.40399787
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.equatorColor.key2.a
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.equatorColor.key3.r
+    value: 0.1646296
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.equatorColor.key3.g
+    value: 0.20761426
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.equatorColor.key3.b
+    value: 0.29408714
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.equatorColor.key3.a
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.equatorColor.key4.r
+    value: 0.1685359
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.equatorColor.key4.g
+    value: 0.22716106
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.equatorColor.key4.b
+    value: 0.34488443
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.equatorColor.key4.a
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.equatorColor.key5.r
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.equatorColor.key5.g
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.equatorColor.key5.b
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.equatorColor.key5.a
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.equatorColor.key6.r
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.equatorColor.key6.g
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.equatorColor.key6.b
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.equatorColor.key6.a
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.equatorColor.key7.r
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.equatorColor.key7.g
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.equatorColor.key7.b
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.equatorColor.key7.a
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.equatorColor.ctime0
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.equatorColor.ctime1
+    value: 26214
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.equatorColor.ctime2
+    value: 32768
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.equatorColor.ctime3
+    value: 39321
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.equatorColor.ctime4
+    value: 65535
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.equatorColor.ctime5
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.equatorColor.ctime6
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.equatorColor.ctime7
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.equatorColor.atime0
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.equatorColor.atime1
+    value: 65535
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.equatorColor.atime2
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.equatorColor.atime3
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.equatorColor.atime4
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.equatorColor.atime5
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.equatorColor.atime6
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.equatorColor.atime7
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.equatorColor.m_Mode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.equatorColor.m_NumColorKeys
+    value: 5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.equatorColor.m_NumAlphaKeys
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.groundColor.key0.r
+    value: 0.41509432
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.groundColor.key0.g
+    value: 0.38376644
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.groundColor.key0.b
+    value: 0.38376644
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.groundColor.key0.a
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.groundColor.key1.r
+    value: 0.2924528
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.groundColor.key1.g
+    value: 0.2662424
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.groundColor.key1.b
+    value: 0.2662424
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.groundColor.key1.a
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.groundColor.key2.r
+    value: 0.07034409
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.groundColor.key2.g
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.groundColor.key2.b
+    value: 0.0039063096
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.groundColor.key2.a
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.groundColor.key3.r
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.groundColor.key3.g
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.groundColor.key3.b
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.groundColor.key3.a
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.groundColor.key4.r
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.groundColor.key4.g
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.groundColor.key4.b
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.groundColor.key4.a
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.groundColor.key5.r
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.groundColor.key5.g
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.groundColor.key5.b
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.groundColor.key5.a
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.groundColor.key6.r
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.groundColor.key6.g
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.groundColor.key6.b
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.groundColor.key6.a
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.groundColor.key7.r
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.groundColor.key7.g
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.groundColor.key7.b
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.groundColor.key7.a
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.groundColor.ctime0
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.groundColor.ctime1
+    value: 26214
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.groundColor.ctime2
+    value: 32768
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.groundColor.ctime3
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.groundColor.ctime4
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.groundColor.ctime5
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.groundColor.ctime6
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.groundColor.ctime7
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.groundColor.atime0
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.groundColor.atime1
+    value: 65535
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.groundColor.atime2
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.groundColor.atime3
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.groundColor.atime4
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.groundColor.atime5
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.groundColor.atime6
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.groundColor.atime7
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.groundColor.m_Mode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.groundColor.m_NumColorKeys
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.groundColor.m_NumAlphaKeys
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.skyMoonColor.key0.r
+    value: 0.07815671
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.skyMoonColor.key0.g
+    value: 0.109422445
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.skyMoonColor.key0.b
+    value: 0.19589533
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.skyMoonColor.key0.a
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.skyMoonColor.key1.r
+    value: 0.07034409
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.skyMoonColor.key1.g
+    value: 0.09770352
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.skyMoonColor.key1.b
+    value: 0.1646296
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.skyMoonColor.key1.a
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.skyMoonColor.key2.r
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.skyMoonColor.key2.g
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.skyMoonColor.key2.b
+    value: 0.042984664
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.skyMoonColor.key2.a
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.skyMoonColor.key3.r
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.skyMoonColor.key3.g
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.skyMoonColor.key3.b
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.skyMoonColor.key3.a
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.skyMoonColor.key4.r
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.skyMoonColor.key4.g
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.skyMoonColor.key4.b
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.skyMoonColor.key4.a
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.skyMoonColor.key5.r
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.skyMoonColor.key5.g
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.skyMoonColor.key5.b
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.skyMoonColor.key5.a
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.skyMoonColor.key6.r
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.skyMoonColor.key6.g
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.skyMoonColor.key6.b
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.skyMoonColor.key6.a
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.skyMoonColor.key7.r
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.skyMoonColor.key7.g
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.skyMoonColor.key7.b
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.skyMoonColor.key7.a
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.skyMoonColor.ctime0
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.skyMoonColor.ctime1
+    value: 26214
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.skyMoonColor.ctime2
+    value: 32864
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.skyMoonColor.ctime3
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.skyMoonColor.ctime4
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.skyMoonColor.ctime5
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.skyMoonColor.ctime6
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.skyMoonColor.ctime7
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.skyMoonColor.atime0
+    value: 386
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.skyMoonColor.atime1
+    value: 65535
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.skyMoonColor.atime2
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.skyMoonColor.atime3
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.skyMoonColor.atime4
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.skyMoonColor.atime5
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.skyMoonColor.atime6
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.skyMoonColor.atime7
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.skyMoonColor.m_Mode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.skyMoonColor.m_NumColorKeys
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.skyMoonColor.m_NumAlphaKeys
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.equatorMoonColor.key0.r
+    value: 0.19197376
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.equatorMoonColor.key0.g
+    value: 0.25108722
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.equatorMoonColor.key0.b
+    value: 0.36052492
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.equatorMoonColor.key0.a
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.equatorMoonColor.key1.r
+    value: 0.1685359
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.equatorMoonColor.key1.g
+    value: 0.21152057
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.equatorMoonColor.key1.b
+    value: 0.29799345
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.equatorMoonColor.key1.a
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.equatorMoonColor.key2.r
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.equatorMoonColor.key2.g
+    value: 0.0039063096
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.equatorMoonColor.key2.b
+    value: 0.105516136
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.equatorMoonColor.key2.a
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.equatorMoonColor.key3.r
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.equatorMoonColor.key3.g
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.equatorMoonColor.key3.b
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.equatorMoonColor.key3.a
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.equatorMoonColor.key4.r
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.equatorMoonColor.key4.g
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.equatorMoonColor.key4.b
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.equatorMoonColor.key4.a
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.equatorMoonColor.key5.r
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.equatorMoonColor.key5.g
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.equatorMoonColor.key5.b
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.equatorMoonColor.key5.a
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.equatorMoonColor.key6.r
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.equatorMoonColor.key6.g
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.equatorMoonColor.key6.b
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.equatorMoonColor.key6.a
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.equatorMoonColor.key7.r
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.equatorMoonColor.key7.g
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.equatorMoonColor.key7.b
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.equatorMoonColor.key7.a
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.equatorMoonColor.ctime0
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.equatorMoonColor.ctime1
+    value: 26214
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.equatorMoonColor.ctime2
+    value: 32671
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.equatorMoonColor.ctime3
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.equatorMoonColor.ctime4
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.equatorMoonColor.ctime5
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.equatorMoonColor.ctime6
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.equatorMoonColor.ctime7
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.equatorMoonColor.atime0
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.equatorMoonColor.atime1
+    value: 65535
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.equatorMoonColor.atime2
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.equatorMoonColor.atime3
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.equatorMoonColor.atime4
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.equatorMoonColor.atime5
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.equatorMoonColor.atime6
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.equatorMoonColor.atime7
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.equatorMoonColor.m_Mode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.equatorMoonColor.m_NumColorKeys
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.equatorMoonColor.m_NumAlphaKeys
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.groundMoonColor.key0.r
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.groundMoonColor.key0.g
+    value: 0.0039063096
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.groundMoonColor.key0.b
+    value: 0.101609826
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.groundMoonColor.key0.a
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.groundMoonColor.key1.r
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.groundMoonColor.key1.g
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.groundMoonColor.key1.b
+    value: 0.09770352
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.groundMoonColor.key1.a
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.groundMoonColor.key2.r
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.groundMoonColor.key2.g
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.groundMoonColor.key2.b
+    value: 0.015625238
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.groundMoonColor.key2.a
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.groundMoonColor.key3.r
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.groundMoonColor.key3.g
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.groundMoonColor.key3.b
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.groundMoonColor.key3.a
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.groundMoonColor.key4.r
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.groundMoonColor.key4.g
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.groundMoonColor.key4.b
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.groundMoonColor.key4.a
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.groundMoonColor.key5.r
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.groundMoonColor.key5.g
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.groundMoonColor.key5.b
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.groundMoonColor.key5.a
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.groundMoonColor.key6.r
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.groundMoonColor.key6.g
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.groundMoonColor.key6.b
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.groundMoonColor.key6.a
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.groundMoonColor.key7.r
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.groundMoonColor.key7.g
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.groundMoonColor.key7.b
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.groundMoonColor.key7.a
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.groundMoonColor.ctime0
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.groundMoonColor.ctime1
+    value: 26214
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.groundMoonColor.ctime2
+    value: 32768
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.groundMoonColor.ctime3
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.groundMoonColor.ctime4
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.groundMoonColor.ctime5
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.groundMoonColor.ctime6
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.groundMoonColor.ctime7
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.groundMoonColor.atime0
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.groundMoonColor.atime1
+    value: 65535
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.groundMoonColor.atime2
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.groundMoonColor.atime3
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.groundMoonColor.atime4
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.groundMoonColor.atime5
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.groundMoonColor.atime6
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.groundMoonColor.atime7
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.groundMoonColor.m_Mode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.groundMoonColor.m_NumColorKeys
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AmbientParams.groundMoonColor.m_NumAlphaKeys
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_MainCam
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_FollowCamera
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_Resources
+    value: 
+    objectReference: {fileID: 11400000, guid: 2d04d3519276231a6bb0c408af962347, type: 2}

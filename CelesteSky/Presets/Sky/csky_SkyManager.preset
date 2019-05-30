@@ -1,0 +1,1135 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!181963792 &2655988077585873504
+Preset:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: csky_SkyManager
+  m_TargetType:
+    m_NativeTypeID: 114
+    m_ManagedTypePPtr: {fileID: 11500000, guid: 531356e1361864f4e8e1c22c1c7a9fe8,
+      type: 3}
+    m_ManagedTypeFallback: 
+  m_Properties:
+  - target: {fileID: 0}
+    propertyPath: m_Enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorHideFlags
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorClassIdentifier
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_Dome
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: general.m_GlobalExposure
+    value: 1.3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: atmosphericScattering.m_ShaderQuality
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: atmosphericScattering.m_MoonRayleighMode
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: atmosphericScattering.m_BetaRayUpdate
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: atmosphericScattering.m_BetaMieUpdate
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: atmosphericScattering.m_Params.applyFastTonemap
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: atmosphericScattering.m_Params.contrast
+    value: 0.5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: atmosphericScattering.m_Params.groundColor.r
+    value: 0.254717
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: atmosphericScattering.m_Params.groundColor.g
+    value: 0.23669456
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: atmosphericScattering.m_Params.groundColor.b
+    value: 0.23669456
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: atmosphericScattering.m_Params.groundColor.a
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: atmosphericScattering.m_Params.wavelength.red
+    value: 650
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: atmosphericScattering.m_Params.wavelength.green
+    value: 570
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: atmosphericScattering.m_Params.wavelength.blue
+    value: 475
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: atmosphericScattering.m_Params.tickness
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: atmosphericScattering.m_Params.atmosphereHaziness
+    value: 0.9
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: atmosphericScattering.m_Params.atmosphereZenithOffset
+    value: 0.06
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: atmosphericScattering.m_Params.rayleighZenithLength
+    value: 8400
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: atmosphericScattering.m_Params.sunBrightness
+    value: 50
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: atmosphericScattering.m_Params.sunAtmosphereTint.r
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: atmosphericScattering.m_Params.sunAtmosphereTint.g
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: atmosphericScattering.m_Params.sunAtmosphereTint.b
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: atmosphericScattering.m_Params.sunAtmosphereTint.a
+    value: 0.7490196
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: atmosphericScattering.m_Params.sunAtmosphereGradient.key0.r
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: atmosphericScattering.m_Params.sunAtmosphereGradient.key0.g
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: atmosphericScattering.m_Params.sunAtmosphereGradient.key0.b
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: atmosphericScattering.m_Params.sunAtmosphereGradient.key0.a
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: atmosphericScattering.m_Params.sunAtmosphereGradient.key1.r
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: atmosphericScattering.m_Params.sunAtmosphereGradient.key1.g
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: atmosphericScattering.m_Params.sunAtmosphereGradient.key1.b
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: atmosphericScattering.m_Params.sunAtmosphereGradient.key1.a
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: atmosphericScattering.m_Params.sunAtmosphereGradient.key2.r
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: atmosphericScattering.m_Params.sunAtmosphereGradient.key2.g
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: atmosphericScattering.m_Params.sunAtmosphereGradient.key2.b
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: atmosphericScattering.m_Params.sunAtmosphereGradient.key2.a
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: atmosphericScattering.m_Params.sunAtmosphereGradient.key3.r
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: atmosphericScattering.m_Params.sunAtmosphereGradient.key3.g
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: atmosphericScattering.m_Params.sunAtmosphereGradient.key3.b
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: atmosphericScattering.m_Params.sunAtmosphereGradient.key3.a
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: atmosphericScattering.m_Params.sunAtmosphereGradient.key4.r
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: atmosphericScattering.m_Params.sunAtmosphereGradient.key4.g
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: atmosphericScattering.m_Params.sunAtmosphereGradient.key4.b
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: atmosphericScattering.m_Params.sunAtmosphereGradient.key4.a
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: atmosphericScattering.m_Params.sunAtmosphereGradient.key5.r
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: atmosphericScattering.m_Params.sunAtmosphereGradient.key5.g
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: atmosphericScattering.m_Params.sunAtmosphereGradient.key5.b
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: atmosphericScattering.m_Params.sunAtmosphereGradient.key5.a
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: atmosphericScattering.m_Params.sunAtmosphereGradient.key6.r
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: atmosphericScattering.m_Params.sunAtmosphereGradient.key6.g
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: atmosphericScattering.m_Params.sunAtmosphereGradient.key6.b
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: atmosphericScattering.m_Params.sunAtmosphereGradient.key6.a
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: atmosphericScattering.m_Params.sunAtmosphereGradient.key7.r
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: atmosphericScattering.m_Params.sunAtmosphereGradient.key7.g
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: atmosphericScattering.m_Params.sunAtmosphereGradient.key7.b
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: atmosphericScattering.m_Params.sunAtmosphereGradient.key7.a
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: atmosphericScattering.m_Params.sunAtmosphereGradient.ctime0
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: atmosphericScattering.m_Params.sunAtmosphereGradient.ctime1
+    value: 26214
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: atmosphericScattering.m_Params.sunAtmosphereGradient.ctime2
+    value: 29491
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: atmosphericScattering.m_Params.sunAtmosphereGradient.ctime3
+    value: 32768
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: atmosphericScattering.m_Params.sunAtmosphereGradient.ctime4
+    value: 36044
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: atmosphericScattering.m_Params.sunAtmosphereGradient.ctime5
+    value: 65535
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: atmosphericScattering.m_Params.sunAtmosphereGradient.ctime6
+    value: 65535
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: atmosphericScattering.m_Params.sunAtmosphereGradient.ctime7
+    value: 65535
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: atmosphericScattering.m_Params.sunAtmosphereGradient.atime0
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: atmosphericScattering.m_Params.sunAtmosphereGradient.atime1
+    value: 65535
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: atmosphericScattering.m_Params.sunAtmosphereGradient.atime2
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: atmosphericScattering.m_Params.sunAtmosphereGradient.atime3
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: atmosphericScattering.m_Params.sunAtmosphereGradient.atime4
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: atmosphericScattering.m_Params.sunAtmosphereGradient.atime5
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: atmosphericScattering.m_Params.sunAtmosphereGradient.atime6
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: atmosphericScattering.m_Params.sunAtmosphereGradient.atime7
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: atmosphericScattering.m_Params.sunAtmosphereGradient.m_Mode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: atmosphericScattering.m_Params.sunAtmosphereGradient.m_NumColorKeys
+    value: 6
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: atmosphericScattering.m_Params.sunAtmosphereGradient.m_NumAlphaKeys
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: atmosphericScattering.m_Params.moonContribution
+    value: 0.191
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: atmosphericScattering.m_Params.moonAtmosphereTint.r
+    value: 0.4009434
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: atmosphericScattering.m_Params.moonAtmosphereTint.g
+    value: 0.54808015
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: atmosphericScattering.m_Params.moonAtmosphereTint.b
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: atmosphericScattering.m_Params.moonAtmosphereTint.a
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: atmosphericScattering.m_Params.mie
+    value: 0.005
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: atmosphericScattering.m_Params.mieZenithLength
+    value: 1250
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: atmosphericScattering.m_Params.sunMie.tint.r
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: atmosphericScattering.m_Params.sunMie.tint.g
+    value: 0.7593656
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: atmosphericScattering.m_Params.sunMie.tint.b
+    value: 0.5849056
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: atmosphericScattering.m_Params.sunMie.tint.a
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: atmosphericScattering.m_Params.sunMie.anisotropy
+    value: 0.75
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: atmosphericScattering.m_Params.sunMie.scattering
+    value: 5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: atmosphericScattering.m_Params.moonMie.tint.r
+    value: 0.5640863
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: atmosphericScattering.m_Params.moonMie.tint.g
+    value: 0.5471698
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: atmosphericScattering.m_Params.moonMie.tint.b
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: atmosphericScattering.m_Params.moonMie.tint.a
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: atmosphericScattering.m_Params.moonMie.anisotropy
+    value: 0.75
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: atmosphericScattering.m_Params.moonMie.scattering
+    value: 0.05
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: deepSpace.m_GalaxyParams.cubemap
+    value: 
+    objectReference: {fileID: 8900000, guid: 7b3a5d9a62f7eab42bcf60c8556044ae, type: 2}
+  - target: {fileID: 0}
+    propertyPath: deepSpace.m_GalaxyParams.tint.r
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: deepSpace.m_GalaxyParams.tint.g
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: deepSpace.m_GalaxyParams.tint.b
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: deepSpace.m_GalaxyParams.tint.a
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: deepSpace.m_GalaxyParams.intensity
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: deepSpace.m_GalaxyParams.contrast
+    value: 0.5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: deepSpace.m_StarsParams.cubemap
+    value: 
+    objectReference: {fileID: 8900000, guid: c6aacf1156c5db9a6aca8ecbea27dee1, type: 3}
+  - target: {fileID: 0}
+    propertyPath: deepSpace.m_StarsParams.tint.r
+    value: 11.984314
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: deepSpace.m_StarsParams.tint.g
+    value: 11.984314
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: deepSpace.m_StarsParams.tint.b
+    value: 11.984314
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: deepSpace.m_StarsParams.tint.a
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: deepSpace.m_StarsParams.intensity
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: deepSpace.m_StarsParams.noiseCubemap
+    value: 
+    objectReference: {fileID: 8900000, guid: 6f0b17f51456898c8b371806ffb41be3, type: 3}
+  - target: {fileID: 0}
+    propertyPath: deepSpace.m_StarsParams.scintillation
+    value: 0.464
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: deepSpace.m_StarsParams.scintillationSpeed
+    value: 7
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: deepSpace.m_IntensityMultiplier.m_Curve.Array.size
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: deepSpace.m_IntensityMultiplier.m_Curve.Array.data[0].time
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: deepSpace.m_IntensityMultiplier.m_Curve.Array.data[0].value
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: deepSpace.m_IntensityMultiplier.m_Curve.Array.data[0].inSlope
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: deepSpace.m_IntensityMultiplier.m_Curve.Array.data[0].outSlope
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: deepSpace.m_IntensityMultiplier.m_Curve.Array.data[0].tangentMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: deepSpace.m_IntensityMultiplier.m_Curve.Array.data[0].weightedMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: deepSpace.m_IntensityMultiplier.m_Curve.Array.data[0].inWeight
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: deepSpace.m_IntensityMultiplier.m_Curve.Array.data[0].outWeight
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: deepSpace.m_IntensityMultiplier.m_Curve.Array.data[1].time
+    value: 0.48145965
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: deepSpace.m_IntensityMultiplier.m_Curve.Array.data[1].value
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: deepSpace.m_IntensityMultiplier.m_Curve.Array.data[1].inSlope
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: deepSpace.m_IntensityMultiplier.m_Curve.Array.data[1].outSlope
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: deepSpace.m_IntensityMultiplier.m_Curve.Array.data[1].tangentMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: deepSpace.m_IntensityMultiplier.m_Curve.Array.data[1].weightedMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: deepSpace.m_IntensityMultiplier.m_Curve.Array.data[1].inWeight
+    value: 0.22295082
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: deepSpace.m_IntensityMultiplier.m_Curve.Array.data[1].outWeight
+    value: 0.33333334
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: deepSpace.m_IntensityMultiplier.m_Curve.Array.data[2].time
+    value: 0.6503656
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: deepSpace.m_IntensityMultiplier.m_Curve.Array.data[2].value
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: deepSpace.m_IntensityMultiplier.m_Curve.Array.data[2].inSlope
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: deepSpace.m_IntensityMultiplier.m_Curve.Array.data[2].outSlope
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: deepSpace.m_IntensityMultiplier.m_Curve.Array.data[2].tangentMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: deepSpace.m_IntensityMultiplier.m_Curve.Array.data[2].weightedMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: deepSpace.m_IntensityMultiplier.m_Curve.Array.data[2].inWeight
+    value: 0.33333334
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: deepSpace.m_IntensityMultiplier.m_Curve.Array.data[2].outWeight
+    value: 0.33333334
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: deepSpace.m_IntensityMultiplier.m_Curve.Array.data[3].time
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: deepSpace.m_IntensityMultiplier.m_Curve.Array.data[3].value
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: deepSpace.m_IntensityMultiplier.m_Curve.Array.data[3].inSlope
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: deepSpace.m_IntensityMultiplier.m_Curve.Array.data[3].outSlope
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: deepSpace.m_IntensityMultiplier.m_Curve.Array.data[3].tangentMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: deepSpace.m_IntensityMultiplier.m_Curve.Array.data[3].weightedMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: deepSpace.m_IntensityMultiplier.m_Curve.Array.data[3].inWeight
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: deepSpace.m_IntensityMultiplier.m_Curve.Array.data[3].outWeight
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: deepSpace.m_IntensityMultiplier.m_PreInfinity
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: deepSpace.m_IntensityMultiplier.m_PostInfinity
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: deepSpace.m_IntensityMultiplier.m_RotationOrder
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: sun.m_Params.tex
+    value: 
+    objectReference: {fileID: 2800000, guid: 96cea440592acd4c088fb9447cc5f100, type: 3}
+  - target: {fileID: 0}
+    propertyPath: sun.m_Params.tint.r
+    value: 4.030425
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: sun.m_Params.tint.g
+    value: 1.4828923
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: sun.m_Params.tint.b
+    value: 0.5323204
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: sun.m_Params.tint.a
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: sun.m_Params.intensity
+    value: 100
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: moon.m_Params.tex
+    value: 
+    objectReference: {fileID: 2800000, guid: 052aa9f64e57e1f1b9fa42a93bc7a952, type: 3}
+  - target: {fileID: 0}
+    propertyPath: moon.m_Params.texOffsets.x
+    value: 0.48
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: moon.m_Params.texOffsets.y
+    value: 0.06
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: moon.m_Params.tint.r
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: moon.m_Params.tint.g
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: moon.m_Params.tint.b
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: moon.m_Params.tint.a
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: moon.m_Params.intensity
+    value: 100
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: moon.m_Params.contrast
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: clouds.m_Parameters.tex
+    value: 
+    objectReference: {fileID: 2800000, guid: c26335336ce1c9020b35ef25ef1556d1, type: 3}
+  - target: {fileID: 0}
+    propertyPath: clouds.m_Parameters.texSize.x
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: clouds.m_Parameters.texSize.y
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: clouds.m_Parameters.texOffset.x
+    value: 5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: clouds.m_Parameters.texOffset.y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: clouds.m_Parameters.tint.r
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: clouds.m_Parameters.tint.g
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: clouds.m_Parameters.tint.b
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: clouds.m_Parameters.tint.a
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: clouds.m_Parameters.sunGradient.key0.r
+    value: 0.9056604
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: clouds.m_Parameters.sunGradient.key0.g
+    value: 0.9056604
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: clouds.m_Parameters.sunGradient.key0.b
+    value: 0.9056604
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: clouds.m_Parameters.sunGradient.key0.a
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: clouds.m_Parameters.sunGradient.key1.r
+    value: 0.9062028
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: clouds.m_Parameters.sunGradient.key1.g
+    value: 0.9062028
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: clouds.m_Parameters.sunGradient.key1.b
+    value: 0.9062028
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: clouds.m_Parameters.sunGradient.key1.a
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: clouds.m_Parameters.sunGradient.key2.r
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: clouds.m_Parameters.sunGradient.key2.g
+    value: 0.8632704
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: clouds.m_Parameters.sunGradient.key2.b
+    value: 0.5849056
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: clouds.m_Parameters.sunGradient.key2.a
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: clouds.m_Parameters.sunGradient.key3.r
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: clouds.m_Parameters.sunGradient.key3.g
+    value: 0.76924515
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: clouds.m_Parameters.sunGradient.key3.b
+    value: 0.6084906
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: clouds.m_Parameters.sunGradient.key3.a
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: clouds.m_Parameters.sunGradient.key4.r
+    value: 0.19651122
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: clouds.m_Parameters.sunGradient.key4.g
+    value: 0.28807724
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: clouds.m_Parameters.sunGradient.key4.b
+    value: 0.4339623
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: clouds.m_Parameters.sunGradient.key4.a
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: clouds.m_Parameters.sunGradient.key5.r
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: clouds.m_Parameters.sunGradient.key5.g
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: clouds.m_Parameters.sunGradient.key5.b
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: clouds.m_Parameters.sunGradient.key5.a
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: clouds.m_Parameters.sunGradient.key6.r
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: clouds.m_Parameters.sunGradient.key6.g
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: clouds.m_Parameters.sunGradient.key6.b
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: clouds.m_Parameters.sunGradient.key6.a
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: clouds.m_Parameters.sunGradient.key7.r
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: clouds.m_Parameters.sunGradient.key7.g
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: clouds.m_Parameters.sunGradient.key7.b
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: clouds.m_Parameters.sunGradient.key7.a
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: clouds.m_Parameters.sunGradient.ctime0
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: clouds.m_Parameters.sunGradient.ctime1
+    value: 25945
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: clouds.m_Parameters.sunGradient.ctime2
+    value: 29491
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: clouds.m_Parameters.sunGradient.ctime3
+    value: 32768
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: clouds.m_Parameters.sunGradient.ctime4
+    value: 42598
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: clouds.m_Parameters.sunGradient.ctime5
+    value: 65535
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: clouds.m_Parameters.sunGradient.ctime6
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: clouds.m_Parameters.sunGradient.ctime7
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: clouds.m_Parameters.sunGradient.atime0
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: clouds.m_Parameters.sunGradient.atime1
+    value: 65535
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: clouds.m_Parameters.sunGradient.atime2
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: clouds.m_Parameters.sunGradient.atime3
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: clouds.m_Parameters.sunGradient.atime4
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: clouds.m_Parameters.sunGradient.atime5
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: clouds.m_Parameters.sunGradient.atime6
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: clouds.m_Parameters.sunGradient.atime7
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: clouds.m_Parameters.sunGradient.m_Mode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: clouds.m_Parameters.sunGradient.m_NumColorKeys
+    value: 5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: clouds.m_Parameters.sunGradient.m_NumAlphaKeys
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: clouds.m_Parameters.moonGradient.key0.r
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: clouds.m_Parameters.moonGradient.key0.g
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: clouds.m_Parameters.moonGradient.key0.b
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: clouds.m_Parameters.moonGradient.key0.a
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: clouds.m_Parameters.moonGradient.key1.r
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: clouds.m_Parameters.moonGradient.key1.g
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: clouds.m_Parameters.moonGradient.key1.b
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: clouds.m_Parameters.moonGradient.key1.a
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: clouds.m_Parameters.moonGradient.key2.r
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: clouds.m_Parameters.moonGradient.key2.g
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: clouds.m_Parameters.moonGradient.key2.b
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: clouds.m_Parameters.moonGradient.key2.a
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: clouds.m_Parameters.moonGradient.key3.r
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: clouds.m_Parameters.moonGradient.key3.g
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: clouds.m_Parameters.moonGradient.key3.b
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: clouds.m_Parameters.moonGradient.key3.a
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: clouds.m_Parameters.moonGradient.key4.r
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: clouds.m_Parameters.moonGradient.key4.g
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: clouds.m_Parameters.moonGradient.key4.b
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: clouds.m_Parameters.moonGradient.key4.a
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: clouds.m_Parameters.moonGradient.key5.r
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: clouds.m_Parameters.moonGradient.key5.g
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: clouds.m_Parameters.moonGradient.key5.b
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: clouds.m_Parameters.moonGradient.key5.a
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: clouds.m_Parameters.moonGradient.key6.r
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: clouds.m_Parameters.moonGradient.key6.g
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: clouds.m_Parameters.moonGradient.key6.b
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: clouds.m_Parameters.moonGradient.key6.a
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: clouds.m_Parameters.moonGradient.key7.r
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: clouds.m_Parameters.moonGradient.key7.g
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: clouds.m_Parameters.moonGradient.key7.b
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: clouds.m_Parameters.moonGradient.key7.a
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: clouds.m_Parameters.moonGradient.ctime0
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: clouds.m_Parameters.moonGradient.ctime1
+    value: 29491
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: clouds.m_Parameters.moonGradient.ctime2
+    value: 32768
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: clouds.m_Parameters.moonGradient.ctime3
+    value: 36044
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: clouds.m_Parameters.moonGradient.ctime4
+    value: 65535
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: clouds.m_Parameters.moonGradient.ctime5
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: clouds.m_Parameters.moonGradient.ctime6
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: clouds.m_Parameters.moonGradient.ctime7
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: clouds.m_Parameters.moonGradient.atime0
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: clouds.m_Parameters.moonGradient.atime1
+    value: 65535
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: clouds.m_Parameters.moonGradient.atime2
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: clouds.m_Parameters.moonGradient.atime3
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: clouds.m_Parameters.moonGradient.atime4
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: clouds.m_Parameters.moonGradient.atime5
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: clouds.m_Parameters.moonGradient.atime6
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: clouds.m_Parameters.moonGradient.atime7
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: clouds.m_Parameters.moonGradient.m_Mode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: clouds.m_Parameters.moonGradient.m_NumColorKeys
+    value: 5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: clouds.m_Parameters.moonGradient.m_NumAlphaKeys
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: clouds.m_Parameters.intensity
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: clouds.m_Parameters.density
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: clouds.m_Parameters.coverage
+    value: 0.334
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: clouds.m_Parameters.speed
+    value: 0.1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: clouds.m_Parameters.speed2
+    value: 0.1
+    objectReference: {fileID: 0}

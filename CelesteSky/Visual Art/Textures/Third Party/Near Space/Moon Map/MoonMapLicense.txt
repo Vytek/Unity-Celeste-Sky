@@ -1,6 +1,12 @@
+
+Texture resized.
+================
+
 MIT License
 
-Copyright (c) 2019 Alberto Cuéllar.
+See: https://www.highend3d.com/downloads/3d-textures/c/16k-earth-w-4k-moon-free#dialog_license
+
+Copyright (c) 2019 GPoSM
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

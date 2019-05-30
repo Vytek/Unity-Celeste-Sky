@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e00c1f512822ad49b1b82fbd9a0e3ee, type: 3}
+  m_Name: CSky_Resources
+  m_EditorClassIdentifier: 
+  sphereLOD0: {fileID: 4300000, guid: 411311cf3d1c11747bf38eee1b3fd3f7, type: 2}
+  sphereLOD1: {fileID: 4300000, guid: b250b63290f1a6248964185185ad678a, type: 2}
+  sphereLOD2: {fileID: 4300000, guid: b0df072daa3e6c84faf38e447a29a3ec, type: 2}
+  sphereLOD3: {fileID: 4300000, guid: 95183bccf1eebd840953facfaeed1317, type: 2}
+  atmosphereLOD0: {fileID: 4300000, guid: 411311cf3d1c11747bf38eee1b3fd3f7, type: 2}
+  atmosphereLOD1: {fileID: 4300000, guid: b250b63290f1a6248964185185ad678a, type: 2}
+  atmosphereLOD2: {fileID: 4300000, guid: b0df072daa3e6c84faf38e447a29a3ec, type: 2}
+  atmosphereLOD3: {fileID: 4300000, guid: 95183bccf1eebd840953facfaeed1317, type: 2}
+  hemisphereLOD0: {fileID: 4300000, guid: 3d8e5c91682d1276aa9524cbd925cc77, type: 3}
+  hemisphereLOD1: {fileID: 4300002, guid: 67c02f4b3084d5e63839c98e2e160588, type: 3}
+  hemisphereLOD2: {fileID: 4300000, guid: a61674e7b75a25710b52e0534727817c, type: 3}
+  hemisphereLOD3: {fileID: 4300000, guid: a61674e7b75a25710b52e0534727817c, type: 3}
+  QuadMesh: {fileID: 4300000, guid: 8498b9f208ecb054b8d707d3d7311441, type: 2}
+  atmosphereShader: {fileID: 4800000, guid: bd2a79e26f30e7384aac4b744c3429d5, type: 3}
+  ambientSkyboxShader: {fileID: 4800000, guid: 0e426a27bb8f7ce958057639e0d3b98e, type: 3}
+  deepSpaceShader: {fileID: 4800000, guid: 635393b77810c691a8676e3e5156edc1, type: 3}
+  sunShader: {fileID: 4800000, guid: 92a010eda0086175b9abe9973b4c6ca2, type: 3}
+  moonShader: {fileID: 4800000, guid: 66214d5dae0d3157e83646ded5fea25c, type: 3}
+  cloudsShader: {fileID: 4800000, guid: 26e0312fd9a95457faf54b9321fd5f95, type: 3}
+  atmosphereMaterial: {fileID: 2100000, guid: 96831a2b3c52b9a55bdaf37935c04600, type: 2}
+  ambientSkyboxMaterial: {fileID: 2100000, guid: 6148be79aaf380497a4fe96b6a971945,
+    type: 2}
+  deepSpaceMaterial: {fileID: 2100000, guid: f94706f983b72e35ebfab382a11927cf, type: 2}
+  sunMaterial: {fileID: 2100000, guid: 80da74fdb71fb3b8e81eac4ddb00edd1, type: 2}
+  moonMaterial: {fileID: 2100000, guid: 4daecb3cdcd2d7ed7b19464cc7c3c26e, type: 2}
+  cloudsMaterial: {fileID: 2100000, guid: dbfb5002c74c3f8cbae060b3addbe064, type: 2}
